@@ -1,0 +1,51 @@
+html{
+	margin-right:500px;
+}
+
+.gaffanated{
+	margin:0;
+	position:fixed;
+	bottom:0;
+	right:0;
+	top:0;
+	background:white;
+	width:500px;
+	border: solid black 1px;
+	box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+	padding:10px;
+	overflow: scroll;
+    z-index: 9999999;
+}
+
+.gaffanated.hidden{
+    width:30px;
+    height:30px;
+    top:auto;
+    overflow: hidden;
+}
+
+.gaffanated button.hide{
+    position:absolute;
+    z-index: 99999999;
+    bottom:0;
+    right:0;
+    height:30px;
+    width:30px;
+}
+
+.gaffanated textarea{
+	position: absolute;
+	overflow:scroll;
+	top:0;
+	left:0;
+	bottom: 30px;
+	right: 0;
+}
+
+.gaffanated .eventsCount{
+	position: absolute;
+	left:0;
+	bottom: 0;
+	right: 0;
+	height:30px;
+}
